@@ -1,0 +1,28 @@
+.background    { background-image: url(https://tempassets.yolasite.com/resources/Screen%20Shot%202018-03-19%20at%205.02.08%20PM.png);
+                 table-layout: fixed;
+                 background-repeat: no-repeat;
+                 background-size:cover ;
+                 border-spacing: 0;   }
+.background td { padding: ;          }
+.lava          { background: linear-gradient(#553333, #cc4422, #ff6600,	#ffff44 ); }
+.wall          { background: linear-gradient(silver, gray, black);   }
+.floater       { background: linear-gradient(#FFCE00, #21556E );}
+
+
+.actor  { position: absolute;
+        }
+
+.player { background-image: url(https://tempassets.yolasite.com/resources/Cyclops.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+      }
+.coin { background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/2/2f/Coin_-_New_Super_Mario_Bros.png/revision/latest?cb=20151206061007&path-prefix=en);
+        background-size: contain;
+        background-repeat: no-repeat;}
+.game {
+  overflow: hidden;
+  max-width: 700px;
+  max-height: 550px;
+  position: relative;
+  padding-bottom: 30px;
+}

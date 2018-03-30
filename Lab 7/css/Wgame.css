@@ -1,0 +1,34 @@
+.background    { background-image: url(https://images7.alphacoders.com/362/thumb-1920-362119.jpg);
+                 table-layout: fixed;
+                 background-repeat: no-repeat;
+                 background-size:cover ;
+                 border-spacing: 0;   }
+.background td { padding: ;          }
+.lava          { background: linear-gradient(#553333, #cc4422, #ff6600,	#ffff44 ); }
+.wall          { background: linear-gradient(silver, gray, black);   }
+.floater       { background: linear-gradient(#FFCE00, #21556E );}
+
+
+.actor  { position: absolute;
+        }
+
+.badguy { background-image: url(https://tempassets.yolasite.com/resources/Sabertooth.png);
+          background-size: contain;
+          background-repeat: no-repeat;}
+
+.player { background-image: url(https://tempassets.yolasite.com/resources/Wolfie2.png.opt1240x2115o0%2C0s1240x2115.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+      }
+.coin { background-image: url(https://png.icons8.com/metro/1600/spiderman-new.png);
+        background-size: contain;
+        background-repeat: no-repeat;}
+.Wgame {
+  overflow: hidden;
+  max-width: 700px;
+  max-height: 480px;
+  position: relative;
+
+  border: 10px solid black;
+
+}
